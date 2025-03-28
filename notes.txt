@@ -1,0 +1,95 @@
+Control Flow Keywords
+break – Exits a loop or switch statement early.
+
+switch – A multi-way branch statement for conditional execution.
+
+case – Defines individual branches within a switch statement.
+
+if – Executes a block of code if a condition is true.
+
+else – Defines an alternate block of code if if condition is false.
+
+throw – Throws an error for exception handling.
+
+try – Defines a block of code that may throw an error.
+
+catch – Handles errors thrown by a try block.
+
+finally – Defines a block that executes after try and catch, regardless of errors.
+
+for – A loop that executes a block of code multiple times.
+
+while – A loop that runs as long as a condition is true.
+
+do – Runs a loop at least once before checking the condition.
+
+continue – Skips the current iteration of a loop and proceeds to the next one.
+
+return – Exits a function and optionally returns a value.
+
+Variable & Type Keywords
+var – Declares a variable (function-scoped, outdated in favor of let/const).
+
+let – Declares a block-scoped variable.
+
+const – Declares a block-scoped constant (immutable reference).
+
+number – A built-in type for numeric values.
+
+string – A built-in type for text values.
+
+any – A type that can hold any value (disables type checking).
+
+void – A type for functions that don’t return a value.
+
+null – A special value representing the absence of an object.
+
+true / false – Boolean literals representing truth values.
+
+Object-Oriented Programming (OOP) Keywords
+class – Defines a blueprint for creating objects.
+
+extends – Indicates a class inherits from another class.
+
+super – Calls the constructor or methods of the parent class.
+
+this – Refers to the current instance of a class.
+
+new – Instantiates an object from a class.
+
+static – Declares a class member that belongs to the class, not instances.
+
+public – Specifies that a class member is accessible from anywhere.
+
+private – Specifies that a class member is only accessible within the class.
+
+protected – Allows class members to be accessed by subclasses.
+
+interface – Defines a contract for an object’s shape.
+
+implements – Ensures a class follows an interface.
+
+instanceof – Checks if an object is an instance of a specific class.
+
+Type System & Module Keywords
+type – Defines a custom type alias.
+
+typeof – Gets the type of a variable at runtime.
+
+enum – Defines a named set of constant values.
+
+module – Declares a module (mostly used in older versions of TypeScript).
+
+export – Exports functions, classes, or variables from a module.
+
+import – Imports modules (not in your list, but related).
+
+package – A reserved word, but not commonly used in TypeScript.
+
+Miscellaneous Keywords
+yield – Pauses and resumes a generator function.
+
+in – Checks if a property exists in an object ("prop" in obj).
+
+as – Used for type assertions (value as Type).
+
